@@ -1,0 +1,12 @@
+h1{
+text-align: center;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+color:rgb(121, 11, 11);
+border: 2px solid black;
+margin-right: 300px;
+margin-left: 300px;
+border-radius: 5px;
+}
+h3{
+    font-weight: 100;
+}
