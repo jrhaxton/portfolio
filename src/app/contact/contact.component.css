@@ -1,3 +1,7 @@
 #grad1{
     background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(179, 205, 218));
 }
+.label {
+    font-size: 24px;
+    color:black;
+  }

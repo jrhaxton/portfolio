@@ -8,6 +8,7 @@ import { CoursesComponent } from './courses/courses.component';
 import { ContactComponent } from './contact/contact.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
+import { ProfessionalComponent } from './professional/professional.component';
 
 const routes: Routes = [
   {path: 'home', component: HomeComponent},
@@ -15,6 +16,7 @@ const routes: Routes = [
   {path: 'resume', component: ResumeComponent},
   {path: 'courses', component: CoursesComponent},
   {path: 'contact', component: ContactComponent},
+  {path: 'professional', component: ProfessionalComponent},
 ];
 
 @NgModule({
@@ -25,7 +27,8 @@ const routes: Routes = [
     CoursesComponent,
     ContactComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    ProfessionalComponent
   ],
   imports: [
     BrowserModule,

@@ -7,6 +7,10 @@ h1{
   }
   table {
     border-collapse: collapse;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    align-self: center;
   }
   
   table, th, td {

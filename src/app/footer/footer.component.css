@@ -1,4 +1,4 @@
-    p{
+    body{
         padding:0px;
         display: block;
         overflow: hidden;
@@ -6,6 +6,11 @@
         border-width: 25px;
         border-color:rgb(28, 72, 138);
         text-align: center;
-        color: white;
         background-color: rgb(28, 72, 138);
+    }
+
+    div.info
+    {
+        margin: 5px;
+        color: white;
     }
