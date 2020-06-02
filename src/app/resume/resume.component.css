@@ -1,10 +1,11 @@
 .verticalStrip {
+  overflow: hidden;
   position: fixed;
   top: 0;
   right: 0;
   width: 50px;
   background-color:rgb(28, 72, 138);
-  height:98.5%;
+  height:98.75%;
 }
 
 .content {

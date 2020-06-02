@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { FormBuilder } from '@angular/forms';
 
 @Component({
   selector: 'app-contact',
@@ -6,8 +7,16 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./contact.component.css']
 })
 export class ContactComponent implements OnInit {
+contactForm;
 
-  constructor() { }
+  constructor(
+    //private formBuilder: FormBuilder
+  ) { 
+    /*this.contactForm=this.formBuilder.group({
+      name: '',
+      email: '',
+    });*/
+  }
 
   ngOnInit() {
   }
