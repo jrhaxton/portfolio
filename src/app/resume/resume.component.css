@@ -1,0 +1,18 @@
+.verticalStrip {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 50px;
+  background-color:rgb(28, 72, 138);
+  height:98.5%;
+}
+
+.content {
+  padding-right: 75px;
+} 
+iframe{
+      margin-right: 250px;
+      margin-left: 250px;
+      width: 900px;
+      height: 1075px;
+  }

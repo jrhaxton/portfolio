@@ -1,0 +1,13 @@
+    p{
+        padding:0px;
+        display: block;
+        margin-start: auto;
+        margin-end: auto;
+        overflow: hidden;
+        border-style: inset;
+        border-width: 25px;
+        border-color:rgb(28, 72, 138);
+        text-align: center;
+        color: white;
+        background-color: rgb(28, 72, 138);
+    }
