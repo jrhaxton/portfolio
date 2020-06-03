@@ -4,6 +4,7 @@
 h1{
     margin: 0px;  
     text-align:center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
   table {
     border-collapse: collapse;
@@ -11,17 +12,18 @@ h1{
     margin-left: 5%;
     margin-right: 5%;
     align-self: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
   
   table, th, td {
     border: 1px solid black;
   }
   th {
-    padding: 10px;
+    padding: 20px;
     text-align: left;
   }
   td {
-    padding: 10px;
+    padding: 15px;
     text-align: left;
   }
   th {
@@ -33,10 +35,11 @@ h1{
 }
 h2{
   display:inline-block;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .skill {
-  border: 2px solid  rgb(179, 205, 218);
+  border: 2px solid rgb(11, 31, 121);;
   border-radius: 5%;
   padding: 10px;
   padding-right: 20px;
@@ -55,4 +58,10 @@ h2{
 
 .container{
   width: 100%;
+}
+
+.achievements{
+  width: 40%;
+  margin-left: 30%;
+  margin-right: 30%;
 }
