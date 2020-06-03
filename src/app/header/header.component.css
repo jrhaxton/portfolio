@@ -7,6 +7,7 @@ ul {
   border-color:rgb(28, 72, 138);
   text-align: center;
   background-color: rgb(28, 72, 138);
+  margin: 0px;
   }
   
   li {
@@ -22,7 +23,7 @@ ul {
   }
   
   li a:hover {
-    background-color:rgba(11, 31, 121, 0.151);
+    background-color:rgba(9, 25, 97, 0.151);
   }
 
   
