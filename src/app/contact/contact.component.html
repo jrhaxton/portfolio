@@ -9,13 +9,13 @@
   </header>
   <br>    
   <h3>Contact Me</h3>
-  <div>
+  <form action="https://formspree.io/maypojoa" method="POST">
     <label class="label">Name: </label>
     <input type="text" name="name" width="100%" required>
-  </div>
-  <div>
     <label class="label">Email: </label>
-    <input type="text" name="Email" width="100%" required>
-  </div>
-  <button>Submit</button>
+    <input type="text" name="email" width="100%" required>
+    <label class="label">Comments: </label>
+    <textarea name="Comments" maxlength="1000" rows="5" cols="50" required></textarea>
+    <button>Submit</button>
+  </form>
 </div>
