@@ -1,6 +1,10 @@
+/*Background Gradient*/
 #grad{
   background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(179, 205, 218));
+  margin: 0px;
 }
+
+/*Name*/
 h1{
   margin:0px; 
   text-align: center;
@@ -16,35 +20,64 @@ h3{
     font-weight: 500px;
 }
 
-.container::after {
+/*Biography & Pic Section*/
+.container{
+    border: 1px solid rgb(88, 224, 122);
+    border-radius: 10px;
+    width: 100%;
+}
+.container::after{
   content: "";
   clear: both;
   display: table;
 }
-
 .pic{
-  float: left;
   width: 35%;
-  padding: 20px;
-}
-img{
-  width:400px;
-  height: 300px; 
   overflow: hidden; 
   border-radius: 5%;
+  float: right;
+  margin-right: 5%;
 }
 .about-me
 {
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  float: left;
-  width: 65%;
-  padding: 20px;
+  font-size: 20px;
   line-height: 125%;
   border: 2px solid rgb(11, 31, 121);
   border-radius: 10%;
+  margin-right: 45%;
+  float: left;
 }
 
+/*Education Description Section*/
 .education
 {
   text-align: center;
+  margin: 0px;
+}
+h2{
+  font-weight: bold;
+  font-size: 25px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding-bottom: 15px;
+}
+.school{
+  font-size: 22px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+  margin:0px;
+}
+.degree{
+  font-size: 20px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin:0px;
+}
+
+.campus{
+  width: 95%;
+  height: 400px;
+  border-radius: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
