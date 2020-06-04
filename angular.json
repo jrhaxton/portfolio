@@ -115,6 +115,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "JoshWeb"
+    }
+  },
+  "defaultProject": "JoshWeb",
+  "cli": {
+    "analytics": false
+  }
 }
