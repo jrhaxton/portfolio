@@ -21,10 +21,13 @@ h3{
 }
 
 /*Biography & Pic Section*/
+.container::after{
+    content: "";
+    clear: both;
+    display: table;
+}
 .container{
-    border: 1px solid rgb(88, 224, 122);
-    border-radius: 10px;
-    width: 100%;
+  width: 100%;
 }
 .pic{
   width: 35%;
@@ -38,11 +41,11 @@ h3{
 {
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 20px;
-  line-height: 125%;
   border: 2px solid rgb(11, 31, 121);
   border-radius: 10%;
-  margin-right: 45%;
-  width: 46%;
+  margin-left: 5%;
+  width: 53%;
+  float: left;
 }
 
 /*Education Description Section*/
