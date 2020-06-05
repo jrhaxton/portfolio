@@ -1,44 +1,46 @@
+/*Background*/
 #grad2{
   background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(179, 205, 218));
 }
+
+/*Header*/
 h1{
-    margin: 0px;  
-    text-align:center;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  }
-  table {
-    border-collapse: collapse;
-    width: 90%;
-    margin-left: 5%;
-    margin-right: 5%;
-    align-self: center;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin: 15px;
-  }
-  
-  table, th, td {
-    border: 1px solid black;
-  }
-  th {
-    padding: 8px;
-    text-align: left;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    background-color: rgb(179, 205, 218);
-    color:black;
-  }
-  td {
-    padding: 8px;
-    text-align: left;
-  }
-  tr:nth-child(even) {
-      background-color: #f2f2f2;
-}
-h2{
-  display:inline-block;
+  margin: 0px;  
+  text-align:center;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+/*Table*/
+table {
+  border-collapse: collapse;
+  width: 98.5%;
+  align-self: center;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin: 15px;
+}
+table, th, td {
+  border: 1px solid black;
+}
+th {
+  padding: 8px;
+  text-align: left;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: rgb(179, 205, 218);
+  color:black;
+}
+td {
+  padding: 8px;
+  text-align: left;
+}
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/*Skills*/
+.container{
+  width: 100%;
+}
 .skill {
   border: 2px solid rgb(11, 31, 121);;
   border-radius: 5%;
@@ -46,23 +48,22 @@ h2{
   padding-right: 20px;
   margin: 15px;
 }
-
+h2{
+  display:inline-block;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 .right{
   float: right;
   margin-right: 30%;
 }
-
 .left{
   float: left;
   margin-left: 30% ;
 }
 
-.container{
-  width: 100%;
-}
-
+/*Achievements*/
 .achievements{
-  width: 40%;
+  align-self: center;
   margin-left: 30%;
   margin-right: 30%;
 }
