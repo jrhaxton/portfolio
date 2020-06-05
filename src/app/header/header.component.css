@@ -1,6 +1,6 @@
 ul {
+  list-style-type: none;
   padding:0px;
-  display: block;
   overflow: hidden;
   border-style: outset;
   border-width: 25px;
@@ -9,6 +9,7 @@ ul {
   background-color: rgb(28, 72, 138);
   margin: 0px;
   font-size: 20px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
   
   li {
@@ -21,10 +22,12 @@ ul {
     color:white;
     text-align: center;
     padding: 16px 20px;
+    text-decoration: none;
   }
   
   li a:hover {
     background-color:rgba(9, 25, 97, 0.151);
+    opacity: 0.8;
   }
 
   
