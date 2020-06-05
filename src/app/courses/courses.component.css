@@ -13,23 +13,24 @@ h1{
     margin-right: 5%;
     align-self: center;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 15px;
   }
   
   table, th, td {
     border: 1px solid black;
   }
   th {
-    padding: 20px;
+    padding: 8px;
     text-align: left;
-  }
-  td {
-    padding: 15px;
-    text-align: left;
-  }
-  th {
+    padding-top: 12px;
+    padding-bottom: 12px;
     background-color: rgb(179, 205, 218);
     color:black;
-  }  
+  }
+  td {
+    padding: 8px;
+    text-align: left;
+  }
   tr:nth-child(even) {
       background-color: #f2f2f2;
 }
