@@ -1,17 +1,56 @@
+/*Background*/
 #grad1{
     background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(179, 205, 218));
 }
+.verticalStrip {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 50px;
+  background-color:rgb(28, 72, 138);
+  height:98.75%;
+}
+
+/*Header*/
+h1{
+  margin: 0px;  
+  text-align:center;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/*Form Design*/
 .label {
-    font-size: 24px;
-    color:black;
-  }
-  .verticalStrip {
-    overflow: hidden;
-    position: fixed;
-    top: 0;
-    right: 0;
-    width: 50px;
-    background-color:rgb(28, 72, 138);
-    height:98.75%;
-  }
-  
+  font-size: 24px;
+  color:black;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+input[type=text], textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+div{
+  text-align: center;
+}
+
+/*Button Design*/
+button {
+  margin-right: 45%;
+  margin-left: 45%;
+  width: 10%;
+  border: 2px solid black;
+  color: white;
+  background-color: rgb(28, 72, 138);
+  padding: 10px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 10px;
+}
+button:hover {
+  opacity: 0.8;
+}

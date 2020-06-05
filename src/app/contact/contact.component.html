@@ -8,14 +8,42 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
   </header>
   <br>    
-  <h3>Contact Me</h3>
+  <h1>Contact Me</h1>
   <form action="https://formspree.io/maypojoa" method="POST">
-    <label class="label">Name: </label>
-    <input type="text" name="name" width="100%" required>
-    <label class="label">Email: </label>
-    <input type="text" name="email" width="100%" required>
-    <label class="label">Comments: </label>
-    <textarea name="Comments" maxlength="1000" rows="5" cols="50" required></textarea>
+    <div class="row">
+      <div class="col-lg-2"></div>
+      <div class="col-lg-1">
+      <label class="label">Name: </label>
+      </div>
+      <div class="col-lg-6">
+          <input type="text" name="name" width="100%" required>
+      </div>
+      <div class="col-lg-3"></div>
+    </div>
+    
+      <div class="row">
+        <div class="col-lg-2"></div>
+        <div class="col-lg-1">
+          <label class="label">Email: </label>
+        </div>
+        <div class="col-lg-6">
+          <input type="text" name="Email" width="100%" required>
+        </div>
+        <div class="col-lg-3"></div>
+      </div>
+    
+      <div class="row">
+        <div class="col-lg-2"></div>
+        <div class="col-lg-1">
+          <label class="label">Comments: </label>
+        </div>
+        <div class="col-lg-6">
+          <textarea name="Comments" maxlength="1000" rows="3" cols="50" required></textarea>
+        </div>
+        <div class="col-lg-3"></div>
+      </div>
+    
     <button>Submit</button>
   </form>
+  <br>
 </div>
