@@ -9,3 +9,18 @@ h1{
   text-align:center;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
+/*Contents*/
+.container{
+  margin-left:0% ;
+  width: 100%;
+
+}
+
+hr{
+  width: 100%;
+  border: 0;
+  height: 2px;
+  background: rgb(11, 31, 121);
+  background-image: linear-gradient(to right, #ccc, rgb(11, 31, 121), #ccc);
+}
