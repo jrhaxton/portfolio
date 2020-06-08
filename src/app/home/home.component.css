@@ -37,8 +37,8 @@ h3{
   overflow: hidden; 
   border-radius: 5%;
   vertical-align: middle;
-  float: right;
-  margin-right: 5%;
+  margin-left: 5%;
+  float: left;
 }
 .about-me
 {
@@ -46,9 +46,9 @@ h3{
   font-size: 20px;
   border: 2px solid rgb(11, 31, 121);
   border-radius: 25px;
-  margin-left: 5%;
   width: 53%;
-  float: left;
+  float: right;
+  margin-right: 5%;
 }
 .bio{
   margin: 25px;
@@ -83,6 +83,7 @@ h2{
   margin:0px;
 }
 
+/*KU Campus Pic*/
 .campus{
   width: 95%;
   height: 400px;
