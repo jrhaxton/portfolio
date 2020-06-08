@@ -84,12 +84,62 @@ h2{
   margin:0px;
 }
 
-/*KU Campus Pic*/
-.campus{
-  width: 95%;
-  height: 400px;
+/*Pics*/
+.container::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+.container{
+width: 100%;
+}
+.overlay1:hover .jc {
+  opacity: 1;
+}
+.overlay2:hover .lk{
+  opacity: 1;
+}
+.city{
+  width: 45%;
+  float: left;
   border-radius: 10px;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 4%;
+  height: 475px;
+}
+.jc {
+  position: absolute;
+  bottom: -385px;
+  left: 90px;
+  background: rgba(0, 0, 0, 0.5);
+  width: 44.3%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+}
+.campus{
+  width: 45%;
+  float: right;
+  border-radius: 10px;
+  display: block;
+  margin-right: 4%;
+  height: 475px;
+}
+.lk {
+  position: absolute;
+  bottom: -385px;
+  right: 90px;
+  background: rgba(0, 0, 0, 0.5);
+  width: 44.3%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
 }
